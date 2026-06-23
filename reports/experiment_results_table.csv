@@ -1,0 +1,9 @@
+Experiment,Accuracy,Precision,Recall,F1-Score,ROC-AUC
+Exp1 — Logistic Regression,0.7417,0.5086,0.7941,0.62,0.8466
+Exp4 — Gradient Boosting (Tuned),0.8013,0.661,0.516,0.5796,0.8455
+Exp3 — Random Forest (Tuned),0.7601,0.532,0.7995,0.6389,0.8454
+Exp2 — Random Forest (Default),0.7921,0.6452,0.4813,0.5513,0.8229
+Exp5 — Sequential Shallow NN,[run notebook],[run notebook],[run notebook],[run notebook],[run notebook]
+Exp6 — Sequential Deep NN,[run notebook],[run notebook],[run notebook],[run notebook],[run notebook]
+Exp7 — Sequential + Dropout,[run notebook],[run notebook],[run notebook],[run notebook],[run notebook]
+Exp8 — Functional API + BatchNorm,[run notebook],[run notebook],[run notebook],[run notebook],[run notebook]
