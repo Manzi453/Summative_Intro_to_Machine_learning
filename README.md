@@ -68,9 +68,7 @@ telco-churn-prediction/
 │       ├── fig9_roc_curves_ml.png          (generated)
 │       ├── fig10_performance_comparison.png (generated; ML-only version — re-export after DL runs)
 │       └── fig11_learning_curve.png        (generated)
-│
-└── docs/
-    └── video_link.md                  <- link to the 5-10 min presentation recording
+└──
 ```
 
 ## How This Maps to the Grading Rubric
@@ -122,4 +120,5 @@ Functional-API model with batch normalization). Full per-experiment metrics
 
 ## Author
 
-[Your name] — [Your course / institution]
+Ivan Manzi Ya Musana
+
