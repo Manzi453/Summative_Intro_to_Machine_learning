@@ -9,14 +9,17 @@ preprocessed dataset.
 
 ## Project Status
 
-The classical ML experiments (1-4) have been executed end-to-end on the real dataset; their
-results in this repo (report, CSV, figures) are measured, not estimated. The deep learning
-experiments (5-8) are fully implemented and verified for correctness in the notebook, using the
-Sequential API, Functional API, and `tf.data`, but require you to run the notebook once
-(2-4 minutes on Google Colab's free CPU tier) to produce their actual numbers, since they need a
-TensorFlow runtime. **Run the notebook, then fill in the 4 DL rows** in
-`reports/experiment_results_table.csv` and the bracketed placeholders in
-`reports/Telco_Churn_Report.docx` (clearly marked `[run notebook]`) before submission.
+All eight experiments — the four classical ML models (1-4) and the four deep learning
+architectures (5-8: shallow Sequential, deep Sequential, dropout-regularized Sequential, and a
+Functional-API model with batch normalization) — have been executed end-to-end on the real
+dataset. `reports/experiment_results_table.csv` now contains measured, not estimated, metrics
+for all 8 rows, pulled directly from the notebook's saved run.
+
+Still outstanding before submission: export `fig7_dl_training_curves.png` and
+`fig8_confusion_matrices_dl.png` from the notebook into `reports/figures/`, re-export
+`fig9_roc_curves.png` and `fig10_performance_comparison.png` so they cover all 8 experiments
+(the current files in `reports/figures/` are ML-only), and produce
+`reports/Telco_Churn_Report.docx` with the final numbers filled in.
 
 ## Problem & Mission Alignment
 
@@ -49,8 +52,8 @@ telco-churn-prediction/
 ├── reports/
 │   ├── Telco_Churn_Report.docx        <- scholarly report (intro, lit review, methodology,
 │   │                                      results, discussion, conclusion; IEEE citations)
-│   ├── experiment_results_table.csv   <- the 8-experiment comparison table (4 ML rows measured,
-│   │                                      4 DL rows to fill in after you run the notebook)
+│   ├── experiment_results_table.csv   <- the 8-experiment comparison table (all 8 rows measured
+│   │                                      from the notebook run)
 │   └── figures/                       <- figures referenced in the report
 │       ├── fig1_target_overview.png        (generated)
 │       ├── fig2_numeric_boxplots.png       (generated)
